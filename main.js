@@ -103,3 +103,19 @@ if (age > 100) {
    var isOld = true;
 } else var isOld = false;
    console.log(isOld);
+
+
+   /* =========================================================
+        Exercise 6
+   */
+var firstName = "Julia "; // error: need to add space after Julia
+var lastName = "Roberts";
+var fullName = firstName + lastName; // error: lastname should be lastName
+
+console.log(fullName); // Julia Roberts
+
+var yearBorn = 1975;
+var currentYear = 2016;
+var age = currentYear - yearBorn; // error: Var should be var
+
+console.log(age); // 41
