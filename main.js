@@ -1,3 +1,22 @@
+//Questions
+
+//Q: Define the term operator and explain what their purpose is in JavaScript.
+//A: JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more.
+//Q: Please list the five primitives types in JavaScript.
+//A: According to the mozilla site there are six primitive types, although I think we went over four in class: number, string, boolean, undefined, null, symbol
+//Q: Take a look at the table below and identify the primitive types next to each one.
+      45	//number
+      "I heart JS" 	//string
+      'Pizza is life'	//string
+      3.14	//number
+      true	//boolean
+      " "	 //undefined
+      false	 //boolean
+      '5,5555' //this is written as a string but depending on the expression JavaScript might treat it as a number
+//Q: Write a short sentence explaining how expressions work and why they are useful in JavaScript.
+//A: An expression is any valid unit of code that resolves to a value.
+
+
 /*=========================================================
     Part 1: Variables
     Exercise 1
