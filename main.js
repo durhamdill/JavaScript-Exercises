@@ -61,7 +61,7 @@ console.log(math);
 
 /* =========================================================
      Part 3: Expressions
-     Exercise4
+     Exercise 4
 */
 
 
@@ -92,3 +92,14 @@ instructorName = "Tori";
 // Final Statement
 var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
 console.log(statement);
+
+
+/* =========================================================
+     Exercise 5
+*/
+var age = 45;
+
+if (age > 100) {
+   var isOld = true;
+} else var isOld = false;
+   console.log(isOld);
