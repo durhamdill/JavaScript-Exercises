@@ -58,3 +58,37 @@ console.log(math);
 
 math = high * low;
 console.log(math);
+
+/* =========================================================
+     Part 3: Expressions
+     Exercise4
+*/
+
+
+// Create a variable to calculate your age
+// The answer should read "NAME is XX years old"
+// The answer should not be written in a comment.
+var born = 1900;
+var today = 1900;
+
+// Answers Below:
+born = 1982;
+today = 2017;
+var name = "Katy";
+var age = (today - born);
+console.log(name + " is " + age + " years old");
+
+
+// Store some information following in variables.
+var yourName;
+var instructorName;
+
+// Update the variables above so the expression reads correctly.
+// Answers Below:
+yourName = "Katy";
+instructorName = "Tori";
+
+
+// Final Statement
+var statement = yourName + " is taking a class at The Iron Yard, my instructor's name is " + instructorName;
+console.log(statement);
