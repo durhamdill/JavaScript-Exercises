@@ -17,3 +17,10 @@ givenName = givenName;
 console.log(givenName);
 // Q: What is `givenName` set to now?
 // A: Brett
+
+/*=========================================================
+    Exercise 2
+*/
+var givenName = "Brett";
+var greeting = ("Hello, how are you " + givenName + "?");
+console.log(greeting);
